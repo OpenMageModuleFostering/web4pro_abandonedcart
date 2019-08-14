@@ -102,10 +102,15 @@ class Web4pro_AbandonedCart_Model_Cron
                 ->addFieldToFilter('main_table.web4pro_abandonedcart_counter', array('eq' => $run));
 
             $collection->addFieldToFilter('main_table.customer_email', array('neq' => ''));
-            if(count($customergroups)) {
-                $collection->addFieldToFilter('main_table.customer_group_id', array('in', $customergroups));
-            }
 
+            if(count($customergroups)) {
+                if($customergroups[0]==''){
+                    unset($customergroups[0]);
+                }
+                if(count($customergroups)){
+                    $collection->addFieldToFilter('main_table.customer_group_id', array('in'=>$customergroups));
+                }
+            }
             // for each cart of the current run
             foreach($collection as $quote) {
                 foreach ($quote->getAllVisibleItems() as $item) {

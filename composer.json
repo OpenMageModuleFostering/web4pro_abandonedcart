@@ -1,17 +1,13 @@
 {
-    "name": "OpenMageModuleFostering/web4pro_Abandonedcart",
+    "name": "OpenMageModuleFostering/Web4pro_Abandonedcart",
     "type": "magento-module",
     "license": "OSL-v3.0",
     "homepage": "",
-    "description": "Extension allow customer to place a fast order in one single click based on
-customer provided phone number and/or email.
-Additional notes can be added to fast order by customer
-Customer can enable checkbox to make order only with current product 
-or cart content and current product.",
+    "description": "Extension allow to send emails to customers, who abandon their cart",
     "authors": [
     {
-        "name": "Andrii Mutylo",
-        "email": "amutylo@corp.web4pro.com.ua"
+        "name": "Marat Mingazov",
+        "email": "dginzburg@corp.web4pro.com.ua"
     }
 ],
     "suggest": {
