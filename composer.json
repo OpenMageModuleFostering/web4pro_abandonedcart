@@ -1,10 +1,13 @@
 {
     "name": "OpenMageModuleFostering/web4pro_Abandonedcart",
     "type": "magento-module",
-    "license": "OSL-v.3",
+    "license": "OSL-v3.0",
     "homepage": "",
-    "description": "Recover abandoned cart. Send reminder via email. 
-Encourage customer to come back and place an order.",
+    "description": "Extension allow customer to place a fast order in one single click based on&#xD;
+customer provided phone number and/or email.&#xD;
+Additional notes can be added to fast order by customer;&#xD;
+Customer can enable checkbox to make order only with current product &#xD;
+or cart content and current product.",
     "authors": [
     {
         "name": "Andrii Mutylo",

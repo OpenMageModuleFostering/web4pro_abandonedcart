@@ -42,8 +42,8 @@
                         <children>
                             <config>
                                 <children>
-                                    <web4proall module="web4proall">
-                                        <title>Web4proAll Section</title>
+                                    <web4proall module="web4pro_abandonedcart">
+                                        <title>Web4pro Abandonedcart  Section</title>
                                     </web4proall>
                                     <web4pro_abandonedcart translate="title" module="web4pro_abandonedcart">
                                         <title>Web4pro Abandoned Cart</title>
