@@ -182,7 +182,7 @@
             </web4pro_abandonedcart>
             <web4pro_abandonedcart_clean_expiredcoupons>
                 <schedule><cron_expr>0 0 1 * *</cron_expr></schedule>
-                <run><model>web4pro_abandonedcart/cron::cleanCartExpiredCoupons</model></run>
+                <run><model>web4pro_abandonedcart/cron::cleanAbandonedCartExpiredCoupons</model></run>
             </web4pro_abandonedcart_clean_expiredcoupons>
         </jobs>
     </crontab>

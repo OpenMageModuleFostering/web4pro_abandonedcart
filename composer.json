@@ -3,10 +3,10 @@
     "type": "magento-module",
     "license": "OSL-v3.0",
     "homepage": "",
-    "description": "Extension allow customer to place a fast order in one single click based on&#xD;
-customer provided phone number and/or email.&#xD;
-Additional notes can be added to fast order by customer;&#xD;
-Customer can enable checkbox to make order only with current product &#xD;
+    "description": "Extension allow customer to place a fast order in one single click based on
+customer provided phone number and/or email.
+Additional notes can be added to fast order by customer
+Customer can enable checkbox to make order only with current product 
 or cart content and current product.",
     "authors": [
     {
