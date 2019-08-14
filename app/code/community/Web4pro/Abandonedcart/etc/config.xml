@@ -186,4 +186,12 @@
             </web4pro_abandonedcart_clean_expiredcoupons>
         </jobs>
     </crontab>
+    <default>
+        <web4pro_abandonedcart>
+            <general>
+                <firstdate>2016-01-01</firstdate>
+                <days1>1</days1>
+            </general>
+        </web4pro_abandonedcart>
+    </default>
 </config>
