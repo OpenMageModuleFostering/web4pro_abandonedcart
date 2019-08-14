@@ -1,0 +1,17 @@
+{
+    "name": "OpenMageModuleFostering/web4pro_Abandonedcart",
+    "type": "magento-module",
+    "license": "OSL-v.3",
+    "homepage": "",
+    "description": "Recover abandoned cart. Send reminder via email. 
+Encourage customer to come back and place an order.",
+    "authors": [
+    {
+        "name": "Andrii Mutylo",
+        "email": "amutylo@corp.web4pro.com.ua"
+    }
+],
+    "suggest": {
+        "magento-hackathon/magento-composer-installer": "*"
+    }
+}
