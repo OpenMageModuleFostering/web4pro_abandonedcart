@@ -1,16 +1,19 @@
 {
-    "name": "OpenMageModuleFostering/Web4pro_Abandonedcart",
+    "name": "OpenMageModuleFostering\/Web4pro_Abandonedcart",
     "type": "magento-module",
     "license": "OSL-v3.0",
     "homepage": "",
     "description": "Extension allow to send emails to customers, who abandon their cart",
     "authors": [
-    {
-        "name": "Marat Mingazov",
-        "email": "dginzburg@corp.web4pro.com.ua"
-    }
-],
+        {
+            "name": "Marat Mingazov",
+            "email": "dginzburg@corp.web4pro.com.ua"
+        }
+    ],
     "suggest": {
-        "magento-hackathon/magento-composer-installer": "*"
-    }
+        "magento-hackathon\/magento-composer-installer": "*"
+    },
+    "keywords": [
+        "openmage-module"
+    ]
 }
