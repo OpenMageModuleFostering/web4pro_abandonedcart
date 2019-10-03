@@ -1,3 +1,5 @@
+
+
 ## Original Package Description
 
 Extension allow to send emails to customers, who abandon their cart
